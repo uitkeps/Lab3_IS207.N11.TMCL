@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color{
+  color: aqua;
+}
+#main{
+   width: 100%;
+  height: 100%; 
+}
+
+
+#navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+#navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}  
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#profile
+{
+  text-align: center;
+}
+.box{
+  width: 80%;
+  margin: auto;
+  height: fit-content;
+  padding-bottom: 40px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-bottom: 2px solid aquamarine;
+}
+.content h3{
+  font-size: 3em;
+  font-weight: 10;
+  letter-spacing: 0.05em;
+}
+.content div{
+  opacity: 0.5;
+  font-size: 1.4em;
+}
+.view{
+  /* display: flex; */
+  margin-top: 40px;
+  line-height: 1.4em;
+}
+.text{
+
+}
+
+.row{
+  margin: 40px 0;
+  padding-bottom: 40px;
+  border-bottom:1px solid aquamarine;
+}
+#profile{
+  margin-top: 30px;
+}
+#exp{
+  background-color: #f98c64;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+#Abilities{
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+#experiences
+{
+  background-color:rgba(255, 228, 196, 0.61);
+  text-align: center;
+}
+.Skills
+{
+  padding: 30px;
+}
+.rate
+{
+  display: flex;
+  justify-content: space-between;
+}
+.rate-list
+{
+  padding-right: 40px;
+}
+
+.button-link {
+  color: #333;
+  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 2px solid #333;
+}
+.button-link:hover {
+  color: #fff;
+  background-color: #333;
+}
+.button{
+  margin: 50px;
+  text-align: center;
+}
+#title{
+  text-align: center;
+}
+.check
+{
+  color: aqua;
+}
+
+
+
